@@ -11,12 +11,12 @@ execution_delay = 0.1
 pause_duration = 0  
 pause_state = False
 
-# Create screen
+
 screen = turtle.Screen()
 screen.setup(width=700, height=600)
 screen.bgpic("snakegame.gif")
 screen.bgcolor("black")
-# Create button function
+
 def start_game():
     global game_screen
     screen.clear()
@@ -29,10 +29,10 @@ def start_game():
     game_screen.setup(width=700, height=600)
 
 
-    # Initialize game components
+    
     initialize_game()
 
-# Create button
+
 button = Button(screen.getcanvas().master, text="   START!! ", command=start_game,bg="green",fg="pink", font=("Courier", 20, "bold"))
 button.pack()
 button.place(x=480, y=480)  # place the button at the bottom of the window
@@ -40,18 +40,18 @@ button.config(width=12)
 
 def initialize_game():
     global head, food, text, segments, button
-    # Hide the button
+    
     button.pack_forget()
     button.destroy()
 
-    # Initialize game variables
+   
     global score, count, execution_delay, pause_state
     score = 0
     count = 0
     execution_delay = 0.1
     pause_state = False
     
-    # Initialize turtle objects
+    
     head = turtle.Turtle()
     head.speed(0)
     head.shape("circle")

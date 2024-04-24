@@ -10,4 +10,5 @@ Dynamic Difficulty: As the game progresses and the snake grows, the challenge in
 
 Score Tracking: Keep track of your high scores and compete with friends to see who can achieve the longest snake and the highest score.
 
-Uploading Screenshot 2024-04-20 214548.png…
+
+![Screenshot 2024-04-20 214548](https://github.com/21D21A0407/Snake-game/assets/165980047/03b6ecf6-743f-424a-8a3e-f0901933a645)

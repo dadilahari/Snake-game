@@ -3,7 +3,8 @@ This game has the same features as those found in mobile phone versions. It incl
 
 Snake Game is a simple yet addictive game where players control a snake that grows longer as it consumes food items scattered across the game board. The objective is to guide the snake to eat as much food as possible without colliding with obstacles such as walls or the snake's own body. As the snake grows longer, maneuvering becomes increasingly difficult, adding to the game's excitement.
 
-Features
+Features:
+
 1.Classic Gameplay: Experience the timeless fun of the Snake game with simple controls and familiar mechanics.
 
 2.Dynamic Difficulty: As the game progresses and the snake grows, the challenge increases, keeping players engaged and testing their skills.

@@ -9,3 +9,5 @@ Classic Gameplay: Experience the timeless fun of the Snake game with simple cont
 Dynamic Difficulty: As the game progresses and the snake grows, the challenge increases, keeping players engaged and testing their skills.
 
 Score Tracking: Keep track of your high scores and compete with friends to see who can achieve the longest snake and the highest score.
+
+Uploading Screenshot 2024-04-20 214548.png…

@@ -14,7 +14,7 @@ pause_state = False
 
 screen = turtle.Screen()
 screen.setup(width=700, height=600)
-screen.bgpic("snakegame.gif")
+screen.bgpic("snakegame_startlogo.gif")
 screen.bgcolor("black")
 
 def start_game():
@@ -24,7 +24,7 @@ def start_game():
     game_screen.title('Snake Game')
     game_screen.setup(width=600, height=600)
     game_screen.bgcolor('brown')
-    game_screen.bgpic('mmm.gif')
+    game_screen.bgpic('backgroundpic.gif')
     game_screen.tracer(False)
     game_screen.setup(width=700, height=600)
 

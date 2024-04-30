@@ -165,7 +165,7 @@ def game_loop():
             x = random.randint(-200, 200)
             y = random.randint(-200, 200)
             food.goto(x, y)
-            winsound.PlaySound("food_G1U6tlb.wav",winsound.SND_ASYNC)
+            winsound.PlaySound("foodsound.wav",winsound.SND_ASYNC)
 
             execution_delay -= 0.002
 
@@ -180,7 +180,7 @@ def game_loop():
             
             count += 1
             if count==5:
-                winsound.PlaySound("game-bonus-144751.wav",winsound.SND_ASYNC)
+                winsound.PlaySound("game-bonus_sound.wav",winsound.SND_ASYNC)
                 new_segment.color("green")
                 score += 15
                 count=0
@@ -240,7 +240,7 @@ def game_over():
 
     with open("highest_score.txt", "w") as file:
         file.write(str(highest_score))
-    winsound.PlaySound("pow-90398.wav", winsound.SND_FILENAME)
+    winsound.PlaySound("snakecrash_sound.wav", winsound.SND_FILENAME)
     splash_text = turtle.Turtle()
     splash_text.hideturtle()
     splash_text.color(1, 1, 1)
